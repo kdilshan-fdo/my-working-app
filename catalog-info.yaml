@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-working-app
+  description: My React application
+  annotations:
+    github.com/project-slug: kdilshan-fdo/my-working-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: kdilshan-fdo
